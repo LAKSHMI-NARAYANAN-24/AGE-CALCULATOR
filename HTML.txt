@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="ageCalculator.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript<br><h2>Age Calculator</h2></h1>
+        <div class="input-box">
+            <input type="date" id="date">
+            <button onclick="calculate()">Calculate</button>
+        </div>
+        <p class="ageCal" id="result"></p>
+    </div>
+    <script src="ageCalculator.js"></script>
+</body>
+</html>
